@@ -1,0 +1,364 @@
+header {
+    background-color: #fdf0d5;
+}
+
+article {
+    background-color: #f7a072;
+    border-radius: 20px;
+}
+
+body {
+    background-color: rgb(45, 124, 142);
+}
+
+
+h1 {
+    font-size: 45px;
+    font-family: "STFangsong"
+}
+
+li {
+    font-size: 25px;
+    line-height: 35px;
+    font-family: "STFangsong";
+}
+
+p {
+    font-size: 25px;
+    font-family: "STFangsong"
+}
+
+img {
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    border-radius: 20px;
+}
+
+#japan {
+    position: relative;
+    right: 0px;
+    top: 10%;
+    border-radius: 20px;
+}
+
+#saizeriya {
+    position: relative;
+    right: 0%;
+    top: 0%;
+    border-radius: 20px;
+}
+
+#compition {
+    position: relative;
+    right: 0%;
+    top: 0%;
+    border-radius: 20px;
+}
+
+#ig {
+    position: absolute;
+    left: 49%;
+    top: 67%;
+}
+
+#fb {
+    position: absolute;
+    left: 40%;
+    top: 67%;
+}
+
+#gm {
+    position: absolute;
+    left: 58%;
+    top: 67%;
+}
+
+.left {
+    position: relative;
+    float: left;
+    height: -300%;
+    width: -200%;
+
+}
+
+.left1 {
+    position: unset;
+    float: inline-end;
+    height: 400px;
+    width: 110px;
+}
+
+.right {
+    position: relative;
+    float: right;
+    height: auto;
+    width: 48%;
+}
+
+.right1 {
+    position: relative;
+    float: right;
+    height: 400px;
+    width: 48%;
+}
+
+
+
+.v-line {
+    border-left: thick solid #000;
+    height: 330%;
+    left: 50%;
+    position: absolute;
+}
+
+
+.timeline-item {
+    padding: 3px 2px 2px;
+    position: relative;
+}
+
+&::before {
+    content: attr(date-is);
+    position: absolute;
+    left: 2px;
+    font-weight: bold;
+    top: 1px;
+    display: block;
+}
+
+&::after {
+    width: 10px;
+    height: 10px;
+    display: block;
+    top: 1px;
+    position: absolute;
+    left: -7px;
+    border-radius: 10px;
+
+}
+
+
+.circle {
+    --width: 150px;
+    --percent: 50;
+    --deg: calc(360deg * calc(var(--percent) / 100));
+    width: var(--width);
+    height: var(--width);
+    border-radius: 50%;
+    margin: 20px auto;
+    background-image: conic-gradient(rgb(88, 57, 10) var(--deg), #ccc var(--deg));
+    position: relative;
+}
+
+.circle-inside {
+    --bar-width: 30px;
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: #eee;
+    width: calc(var(--width) - var(--bar-width));
+    height: calc(var(--width) - var(--bar-width));
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.circle1 {
+    --width: 150px;
+    --percent: 80;
+    --deg: calc(360deg * calc(var(--percent) / 100));
+    width: var(--width);
+    height: var(--width);
+    border-radius: 50%;
+    margin: 20px auto;
+    background-image: conic-gradient(rgb(88, 57, 10) var(--deg), #ccc var(--deg));
+    position: relative;
+}
+
+.circle-inside1 {
+    --bar-width: 30px;
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: #eee;
+    width: calc(var(--width) - var(--bar-width));
+    height: calc(var(--width) - var(--bar-width));
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.circle2 {
+    --width: 150px;
+    --percent: 70;
+    --deg: calc(360deg * calc(var(--percent) / 100));
+    width: var(--width);
+    height: var(--width);
+    border-radius: 50%;
+    margin: 20px auto;
+    background-image: conic-gradient(rgb(88, 57, 10) var(--deg), #ccc var(--deg));
+    position: relative;
+}
+
+.circle-inside2 {
+    --bar-width: 30px;
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: #eee;
+    width: calc(var(--width) - var(--bar-width));
+    height: calc(var(--width) - var(--bar-width));
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.circle3 {
+    --width: 150px;
+    --percent: 75;
+    --deg: calc(360deg * calc(var(--percent) / 100));
+    width: var(--width);
+    height: var(--width);
+    border-radius: 50%;
+    margin: 20px auto;
+    background-image: conic-gradient(rgb(88, 57, 10) var(--deg), #ccc var(--deg));
+    position: relative;
+}
+
+.circle-inside3 {
+    --bar-width: 30px;
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: #eee;
+    width: calc(var(--width) - var(--bar-width));
+    height: calc(var(--width) - var(--bar-width));
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.circle4 {
+    --width: 150px;
+    --percent: 90;
+    --deg: calc(360deg * calc(var(--percent) / 100));
+    width: var(--width);
+    height: var(--width);
+    border-radius: 50%;
+    margin: 20px auto;
+    background-image: conic-gradient(rgb(155, 26, 26) var(--deg), #ccc var(--deg));
+    position: relative;
+}
+
+.circle-inside4 {
+    --bar-width: 30px;
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: #eee;
+    width: calc(var(--width) - var(--bar-width));
+    height: calc(var(--width) - var(--bar-width));
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.circle5 {
+    --width: 150px;
+    --percent: 55;
+    --deg: calc(360deg * calc(var(--percent) / 100));
+    width: var(--width);
+    height: var(--width);
+    border-radius: 50%;
+    margin: 20px auto;
+    background-image: conic-gradient(rgb(155, 26, 26) var(--deg), #ccc var(--deg));
+    position: relative;
+}
+
+.circle-inside5 {
+    --bar-width: 30px;
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: #eee;
+    width: calc(var(--width) - var(--bar-width));
+    height: calc(var(--width) - var(--bar-width));
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.circle6 {
+    --width: 150px;
+    --percent: 100;
+    --deg: calc(360deg * calc(var(--percent) / 100));
+    width: var(--width);
+    height: var(--width);
+    border-radius: 50%;
+    margin: 20px auto;
+    background-image: conic-gradient(rgb(155, 26, 26) var(--deg), #ccc var(--deg));
+    position: relative;
+}
+
+.circle-inside6 {
+    --bar-width: 30px;
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: #eee;
+    width: calc(var(--width) - var(--bar-width));
+    height: calc(var(--width) - var(--bar-width));
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.circle7 {
+    --width: 150px;
+    --percent: 40;
+    --deg: calc(360deg * calc(var(--percent) / 100));
+    width: var(--width);
+    height: var(--width);
+    border-radius: 50%;
+    margin: 20px auto;
+    background-image: conic-gradient(rgb(155, 26, 26) var(--deg), #ccc var(--deg));
+    position: relative;
+}
+
+.circle-inside7 {
+    --bar-width: 30px;
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: #eee;
+    width: calc(var(--width) - var(--bar-width));
+    height: calc(var(--width) - var(--bar-width));
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
